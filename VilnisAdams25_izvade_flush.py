@@ -8,11 +8,11 @@ from time import sleep
 	https://www.includehelp.com/python/flush-parameters-in-python-with-print-function.aspx
 """
 # output is not flushed here
-print("Es mācos programmēt!", end='')
+print("Es mācos programmēt!", end='', flush=True)
 sleep(0.1)
-print("Lietoju funkciju print.", end='')
+print("Lietoju funkciju print.", end='', flush=True)
 sleep(0.1)
-print("Ar parametru flush.", end='')
+print("Ar parametru flush.", end='', flush=True)
 
 sleep(5)
 print("Bye!!!")
