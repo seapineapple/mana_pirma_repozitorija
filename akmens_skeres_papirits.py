@@ -33,9 +33,41 @@ print("""
          _______)
 ---.__________)
 """)
-opcijas = ["akmens", "šķēres", "papīrs"]
-speletajs1 = input("Spēlētājs 1 ",{opcijas},": ").lower()
-speletajs2 = input("Spēlētājs 2 ",{opcijas},": ").lower()
+
+def akmens():
+    print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+    sleep(1)
+
+def skeres():
+    print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+    sleep(1)
+
+def papirs():
+    print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+    sleep(1)
+speletajs1 = input("Spēlētājs 1 akmens, šķēres, papīrs:").lower()
+speletajs2 = input("Spēlētājs 2 akmens, šķēres, papīrs:").lower()
 
 if speletajs1 == speletajs2:
     print('Neizšķirts!')
