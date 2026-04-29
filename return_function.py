@@ -8,4 +8,5 @@ def maximum(x, y):
 
 skaitlis1 = int(input('Ievadi pirmo skaitli: '))
 skaitlis2 = int(input('Ievadi otro skaitli: '))
-lielakais = maximum(skaitlis1, skaitlis2)
+liels = maximum(skaitlis1, skaitlis2)
+print(maximum(skaitlis1, skaitlis2))
